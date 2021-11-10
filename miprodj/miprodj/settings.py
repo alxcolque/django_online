@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-9_(9&_oo9gv!ql6g97uy-g3jve09si1)4b)&^k*j#-!*xel_7u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','aleccol.pythonanywhere.com']
 
 
 # Application definition
@@ -119,6 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+#STATIC_URL = '/home/aleccol/django_online/miprodj//'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

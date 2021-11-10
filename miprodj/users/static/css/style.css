@@ -1,6 +1,10 @@
-body{
-    background: crimson;
+
+#rojo{
+    background: rgb(243, 59, 35);
 }
-#midiv{
-    background: crimson;
+#amarillo{
+    background: rgb(238, 247, 112);
+}
+#verde{
+    background: rgb(34, 175, 34);
 }
